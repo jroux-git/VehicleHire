@@ -1,0 +1,79 @@
+﻿body {
+    background-color: #ededed;
+}
+
+table {
+    width: 100%;
+}
+
+table > thead > tr> th {
+    border: 2px solid gray;
+}
+
+table > tbody > tr > td {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px dotted gray;
+    border-left: 1px dotted gray;
+}
+
+table > tbody tr.alt {
+    background-color: lightgray;
+}
+
+div.label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #003333;
+}
+
+div.searchLabel {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #006666;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: #006666;
+}
+
+div.buttons {
+    clear: both;
+    float: left;
+}
+
+.ui-button {
+    font-size: 10px;
+    margin: 10px;
+}
+
+#divMainBar {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #2a2a2a;
+    background-color: lightgray;
+}
+
+#divSearchFilters {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid lightgray;
+    background-color: #3f3f3f;
+}
+
+    #divSearchFilters > a.ui-button {
+        margin-left: 25px;
+    }

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{AE72A43F-DDDF-40CA-8FA3-B3EECA1A00BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationWebLayer", "PresentationWebLayer\PresentationWebLayer.csproj", "{4FB929F5-805D-49FD-8F4D-14B3FC29830B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE72A43F-DDDF-40CA-8FA3-B3EECA1A00BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE72A43F-DDDF-40CA-8FA3-B3EECA1A00BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE72A43F-DDDF-40CA-8FA3-B3EECA1A00BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE72A43F-DDDF-40CA-8FA3-B3EECA1A00BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB929F5-805D-49FD-8F4D-14B3FC29830B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB929F5-805D-49FD-8F4D-14B3FC29830B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB929F5-805D-49FD-8F4D-14B3FC29830B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB929F5-805D-49FD-8F4D-14B3FC29830B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
